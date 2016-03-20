@@ -19,17 +19,15 @@
             its constituents by splitting around whitespace.
         </p>
 
-        <div class="example">
+        <div concordion:example="basic">
 
             <h3>Example</h3>
 
             <p>
-                The full name
-                <span concordion:execute="#result = split(#TEXT)">John Smith</span>
-                will be broken into first name
-                <span concordion:assertEquals="#result.firstName">John</span>
-                and last name
-                <span concordion:assertEquals="#result.lastName">Smith</span>.
+                The full name <span concordion:set="#name">Jane Smith</span>
+                will be <span concordion:execute="#result = split(#name)">broken</span>
+                into first name <span concordion:assertEquals="#result.firstName">Jane</span>
+                and last name <span concordion:assertEquals="#result.lastName">Smith</span>.
             </p>
 
         </div>
