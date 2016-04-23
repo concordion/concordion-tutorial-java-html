@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
+
+script:
+  - cd initial && ./gradlew check && cd ..
+  - cd documented && ./gradlew check && cd ..
+  - cd instrumenting && ./gradlew check && cd ..
+  - cd complete && ./gradlew check && cd ..
