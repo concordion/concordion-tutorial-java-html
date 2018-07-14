@@ -4,4 +4,4 @@
 # Concordion Tutorial (Java + HTML)
 Concordion Tutorial using Java fixtures and HTML format specifications.
 
-See http://concordion.org/tutorial/java/html for instructions.
+See https://concordion.org/tutorial/java/html for instructions.
