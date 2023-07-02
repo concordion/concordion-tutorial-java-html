@@ -1,5 +1,5 @@
 #! /bin/bash
-version=3.2.0
+version=4.0.0
 git pull
 for folder in complete  documented  initial  instrumented  instrumenting
 do
